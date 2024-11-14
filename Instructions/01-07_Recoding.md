@@ -8,7 +8,6 @@ techniques that allow mitigating this effect. First, we need to focus our analys
 that evolve relatively slow. Then, we may want to evaluate the effect of fast-evolving sites.
 Here, we will test the alignment treatment known as Recoding.
 
-
 Alignment recoding in phylogenomics is a technique used to transform amino acid sequence 
 alignments to mitigate biases such as compositional heterogeneity or saturation, that can 
 mislead phylogenetic inference. By recoding sequences, for example, through Dayhoff coding 
@@ -25,7 +24,7 @@ categories in the 'data' folder:
 $ python3.11
 $ phykit recode -c ~/data/phylogenomics/tools/S_and_R-4.txt $ALIGNMENT > $ALIGNMENT.sr4
 $ python 2.7
-~~~
+~~
 
 Once your alignment has been recoded, you can reconstruct a phylogeny. Since your alignment
 is not encoded by amino acids anymore, protein substitution matrices don't apply. Here, you
