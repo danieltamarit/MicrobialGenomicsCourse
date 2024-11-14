@@ -22,10 +22,6 @@ therefore can accommodate proteins with multiple domains.
 ~~~
 $ mafft-einsi -h
 ~~~
-- MUSCLE. Another common and generally accurate aligner.
-~~~
-$ muscle -h
-~~~
 
 Explore the effects that these aligners have on the gene markers
 used in this exercise. You can do the alignments as previously, 
