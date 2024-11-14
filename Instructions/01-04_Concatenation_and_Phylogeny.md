@@ -46,11 +46,43 @@ $ phykit create_concatenation_matrix -h
 You see that you need to create first a file containing a list of all the
 alignments to be concatenated. You can simply do:
 ~~~
-$ phykit create_concatenation_matrix -h
+$ ls *short > list_of_alignments.txt
+$ phykit create_concatenation_matrix -a list_of_alignments.txt -p concatenated_alignment
 ~~~
-
 
 Once we are done with Phykit, we return to the previous environment:
 ~~~
 $ python2.7
 ~~~
+
+Let's evaluate the results by analysing the occupancy matrix, which indicates
+how many taxa contained each one of the selected gene markers. In order to
+read this file in the terminal, you can do:
+~~~
+$ column -t -s $'\t' concatenated_alignment.occupancy | less -S
+~~~
+
+How well represented are the selected gene markers? Are there any genes that
+were not found in a very large fraction of genomes?
+
+Now, the final step is to reconstruct a tree using this superalignment. This 
+is of course a very difficult process that consumes a lot of computational
+resources. Reconstructing a tree of very distant sequences requires using 
+probabilistic frameworks (maximum likelihood, Bayesian inference), a thorough
+exploration of tree topologies, using complex evolution models, and running
+intensive processes to evaluate the robustness of the tree. Due to the
+limitations in this course, we will take a shortcut and run a very fast 
+alternative. We will take this into consideration when evaluating our results.
+~~~
+$ FastTree -lg concatenated_alignment.fa > concatenated_alignment.fa.fasttreeLG
+~~~
+
+This process will take a few minutes. Use this time to think once again about
+what your results should look like. What do you expect this tree will show?
+
+Once it is ready, copy your tree to your device and visualise it using 
+Figtree, as you did the day before. Remember to:
+- Select "Midpoint root" for easier visualisation
+- Play with font sizes both for tip labels and branch labels (supports)
+
+What shape of the tree of life does your tree support? 
