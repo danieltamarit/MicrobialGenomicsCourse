@@ -26,6 +26,8 @@ $ phykit recode -c ~/data/phylogenomics/tools/S_and_R-4.txt <ALIGNMENT> > <ALIGN
 $ python 2.7
 ~~~
 
+Visualise your alignment. Does it make sense?
+
 Once your alignment has been recoded, you can reconstruct a phylogeny. Since your alignment
 is not encoded by amino acids anymore, protein substitution matrices don't apply. Here, you
 can use a 'nucleotide' algorithm instead:
