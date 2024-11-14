@@ -5,9 +5,20 @@ This module is part of the Microbial Genomics course at the MSc Bioinformatics a
 
 Here, we aim to introduce students to basic concepts in Phylogenomics, exploring the effects of known phylogenomics artefacts to identify best practices. Some of the main concepts in this module include gene marker selection, concatenation strategy, the effects of alignment treatments, and species tree interpretation.
 
-This module consists of two parts:
-- Gene tree vs Species tree
-- Phylogenetic signal
+This exercise will be complemented by short lectures on:
+- Introduction to this assignment
+- Molecular phylogenetics
+- How to reconstruct a species tree
+- Frontiers in phylogenomics and tree of life exploration
+- Final discussion
 
+Today's exercise consists of the following sections:
+- 01: [Background](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-01_Background.md)
+- 02: [Data](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-02_Data.md)
+- 03: [Alignment](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-03_Alignment.md)
+- 04: [Concatenation and Phylogeny](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-04_Concatenation_and_Phylogeny.md)
+- 05: [Single-gene trees](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-05_SingleGeneTrees.md)
+- 06: [A concatenated subset](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-06_One_last_concatenation.md)
+- 07: [Recoding](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-07_Recoding.md)
+- Bonus: [Higher quality alignments](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-Bonus1_HigherQualityAlignments.md)
 
-This lessons are part of a two weeks course directed at MSc and phD students following a non-bioinformatics curriculum. It aims to introduce students to the command line in order to use tools to analyse whole genome sequence data and showcases analyses methods such as SNP calling, pangenome analysis and clustering methods that have been introduced during the lectures. This computer practical uses data from [this publication](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-13-110).
