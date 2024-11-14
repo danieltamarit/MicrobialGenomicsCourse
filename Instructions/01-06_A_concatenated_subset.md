@@ -1,4 +1,4 @@
-One last concatenation
+A concatenated subset
 ==============
 
 The results of the previous step probably made you notice
