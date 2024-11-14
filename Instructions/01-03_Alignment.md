@@ -32,7 +32,7 @@ contain alignments. If you read them with 'less', what signs do you observe that
 the raw sequences have been aligned?
 
 In order to visualise these alignments, you can read them with the parser tool ALAN.
-Run (make sure to replace "<ALIGNMENT>" with the actual alignment file you want to 
+Run (make sure to replace "< ALIGNMENT >" with the actual alignment file you want to 
 visualise:
 ~~~
 $ ~/data/phylogenomics/tools/alan_dt <ALIGNMENT>
