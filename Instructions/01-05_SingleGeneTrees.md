@@ -13,8 +13,8 @@ histories included in our data.
 
 Here, you should run a phylogenetic reconstruction for every gene
 marker in this dataset. To reduce the amount of waiting times and
-resources, do this only with the first five gene markers, and take the
-rest from the appropriate 'data' folder.
+resources, do this only for the first five gene markers using FastTree
+like you did earlier, and take the rest from the appropriate 'data' folder.
 
 For each gene marker, summarise the results in a matrix, where:
 - Every row is a gene marker
