@@ -17,7 +17,7 @@ Today's exercise consists of the following sections:
 - 02: [Data](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-02_Data.md)
 - 03: [Alignment](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-03_Alignment.md)
 - 04: [Concatenation and Phylogeny](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-04_Concatenation_and_Phylogeny.md)
-- 05: [Single-gene trees](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-05_SingleGeneTrees.md)
+- 05: [Single-gene trees](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-05_Single-gene_trees.md)
 - 06: [A concatenated subset](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-06_One_last_concatenation.md)
 - 07: [Recoding](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-07_Recoding.md)
 - Bonus: [Higher quality alignments](https://github.com/danieltamarit/MicrobialGenomicsCourse/blob/main/Instructions/01-Bonus1_HigherQualityAlignments.md)
