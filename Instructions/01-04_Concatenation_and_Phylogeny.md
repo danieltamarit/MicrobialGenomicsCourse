@@ -81,8 +81,11 @@ This process will take a few minutes. Use this time to think once again about
 what your results should look like. What do you expect this tree will show?
 
 Once it is ready, copy your tree to your device and visualise it using 
-Figtree, as you did the day before. Remember to:
-- Select "Midpoint root" for easier visualisation
-- Play with font sizes both for tip labels and branch labels (supports)
+Figtree, as you did the day before. Since we want to establish whether this tree
+is compatible with the two-domain or the three-domain hypothesis, make sure
+to root the tree on the branch separating Bacteria and the other two domains. If
+no such branch exist (i.e. Eukaryotes or Archaea are mixed with Bacteria), then
+set the root by selecting "Midpoint root". Remember that you can change font
+sizes both for tip labels and branch labels (support values).
 
 What shape of the tree of life does your tree support? 
