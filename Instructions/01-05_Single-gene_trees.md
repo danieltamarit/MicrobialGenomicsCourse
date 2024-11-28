@@ -11,9 +11,13 @@ of signal will prevent us from identifying the same exact tree, but
 we want to at least confirm that there are no clearly different 
 histories included in our data.
 
-Here, you should run a phylogenetic reconstruction for every gene
+Goal: Assess whether all markers share the same evolutionary history
+by reconstructing single-gene trees and analysing if they are compatible
+with the two-domain or the three-domain hypotheses.
+
+We will aim to run a phylogenetic reconstruction for every gene
 marker in this dataset. To reduce the amount of waiting times and
-resources, do this only for the first five gene markers using FastTree
+resources, you can do this only for the first five gene markers. Use FastTree
 like you did earlier, and take the rest from the appropriate 'data' folder.
 
 For each gene marker, summarise the results in a matrix, where:
