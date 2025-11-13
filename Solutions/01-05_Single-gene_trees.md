@@ -12,11 +12,11 @@ we want to at least confirm that there are no clearly different
 histories included in our data.
 
 Here, you should run a phylogenetic reconstruction for every gene
-marker in this dataset. To reduce the amount of waiting times and
+marker in this dataset. To reduce waiting times and
 resources, do this only for the first five gene markers using FastTree
 like you did earlier, and take the rest from the appropriate 'data' folder.
 
-For each gene marker, summarise the results in a matrix, where:
+For each gene marker, summarise the results in a matrix or spreadsheet, where:
 - Every row is a gene marker
 - Columns indicate whether:
   - Eukaryotes are monophyletic
@@ -24,6 +24,7 @@ For each gene marker, summarise the results in a matrix, where:
   - Bacteria are monophyletic
   - Is the tree consistent with the two-domains hypothesis
   - Is the tree consistent with the three-domains hypothesis
+- Every cell simply contains a 'yes' or 'no'.
 
 You can do this by visualising the trees in Figtree as before. One
 possible alternative could be to visualise the trees faster, in your
