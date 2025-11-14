@@ -23,7 +23,7 @@ categories in the 'data' folder:
 ~~~
 $ python3.11
 $ phykit recode -c ~/data/phylogenomics/tools/S_and_R-4.txt <ALIGNMENT> > <ALIGNMENT>.sr4
-$ python 2.7
+$ python2.7
 ~~~
 
 Visualise your alignment. Does it make sense?
